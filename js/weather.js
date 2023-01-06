@@ -12,7 +12,6 @@ function onGeoOk(position) {
       city.innerText = data.name;
       weather.innerText = `${data.weather[0].main} / ${data.main.temp}`;
     });
-  console.log(response.weather);
 }
 
 function onGeoError() {

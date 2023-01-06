@@ -30,7 +30,9 @@ function hideGreeting() {
 }
 const logout = document.querySelector("#logout");
 logout.addEventListener("click", event => {
-  localStorage.clear();
+  window.localStorage.clear();
+  todoList.innerText = "";
+  todos = [];
   showLoginForm();
   hideGreeting();
 });
