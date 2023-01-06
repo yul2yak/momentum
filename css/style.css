@@ -1,0 +1,101 @@
+input {
+  font-size: 2.5rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid ivory;
+  color: ivory;
+  outline: none;
+  margin-top: 1.5rem;
+}
+
+input::placeholder {
+  color: ivory;
+}
+
+.ivory {
+  color: ivory;
+}
+
+.center {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  position: relative;
+  display: block;
+  outline: none;
+  background-color: rgb(66, 64, 64);
+  color: antiquewhite;
+  border: 2px;
+  border-radius: 12px;
+  border-color: beige;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 30px;
+}
+
+li button {
+  background-color: transparent;
+}
+
+#clock {
+  position: relative;
+  display: flex;
+  color: ivory;
+  /* background-color: lightgray; */
+  justify-content: center;
+  font-size: 10rem;
+  margin: 1rem;
+}
+
+#login-form input {
+  font-size: 3rem;
+}
+
+#greeting-box h1 {
+  font-size: 3rem;
+}
+
+#todo-form {
+  position: relative;
+  display: flex;
+  color: ivory;
+  justify-content: center;
+}
+
+#todo-list li {
+  position: relative;
+  display: flex;
+  color: ivory;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#weather span {
+  position: relative;
+  display: flex;
+  color: ivory;
+  font-size: 2rem;
+  justify-content: right;
+}
+
+#quote span {
+  position: relative;
+  display: flex;
+  color: ivory;
+  font-size: 1rem;
+  justify-content: center;
+}
